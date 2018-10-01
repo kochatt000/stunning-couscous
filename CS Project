@@ -1,7 +1,7 @@
 running = 1
 print("Adjust window size at least this long ---------------------------------->")
-wait = input("Press 1 to continue ")
-if wait != 1:
+wait = input("Press 1 to continue \n")
+if wait != "1":
     print("Sorry, try again")
 else:
     while running == 1:
@@ -23,17 +23,17 @@ else:
         print("")
         menu_select = input()
     
-        if menu_select == 1:
+        if menu_select == "1":
             print("Introduction:")
 
-        elif menu_select == 2:
+        elif menu_select == "2":
             print("Influential Drummers by Genre:")
             print("1: Classic Rock")
             print("2: Jazz")
             print("3: Metal")
             genre_select = input()
         
-            if genre_select == 1:
+            if genre_select == "1":
                 print("Classic Rock")
                 print("-Keith Moon")
                 print("-Neil Peart")
@@ -43,10 +43,10 @@ else:
                 print("")
                 see_descripa = input("See descriptions?[y/n]")
             
-                if see_descripa == y:
+                if see_descripa == "y":
                     print("fdjhkaklsdf")
 
-                elif see_descripa == n:
+                elif see_descripa == "n":
                     print("Okay")
         
                 else:
@@ -99,5 +99,5 @@ else:
         else:
             print("Sorry, try again")
    
-   else:
+    else:
         print("Thank you. Goodbye.")
