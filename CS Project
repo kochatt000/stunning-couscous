@@ -28,54 +28,63 @@ else:
 
         elif menu_select == 2:
             print("Influential Drummers by Genre:")
-            print("1: Rock")
+            print("1: Classic Rock")
             print("2: Jazz")
             print("3: Metal")
             genre_select = input()
         
             if genre_select == 1:
-                print("Rock")
-                print("oiughfo")
-                print("fdhisaljl")
+                print("Classic Rock")
+                print("-Keith Moon")
+                print("-Neil Peart")
+                print("-Ginger Baker")
+                print("-John Bonham")
+                print("-Mitch Mitchell")
                 print("")
                 see_descripa = input("See descriptions?[y/n]")
             
-                if see_descrip == y:
+                if see_descripa == y:
                     print("fdjhkaklsdf")
 
-                elif see_descrip == n:
+                elif see_descripa == n:
                     print("Okay")
         
                 else:
                     print("Sorry, try again")
     
             elif genre_select == 2:
-                print("Jazz")
-                print("oiughfo")
-                print("fdhisaljl")
+                print("Jazz:")
+                print("-Buddy Rich")
+                print("-Max Roach")
+                print("-Elvin Jones")
+                print("-Dennis Chambers")
+                print("-Larnell Lewis")
                 print("")
                 see_descripb = input("See descriptions?[y/n]")
                 
-                if see_descrip == y:
+                if see_descripb == y:
                     print("fdjhkaklsdf")
                 
-                elif see_descrip == n:
-                    print("uhfiodasadf")
+                elif see_descripb == n:
+                    print("Okay")
                 
                 else:
                     print("Sorry, try again")
                     
             elif genre_select == 3:
                 print ("Metal")
-                print("oiughfo")
-                print("fdhisaljl")
+                print("-Dave Lombardo")
+                print("-Lars Ulrich")
+                print("-Mike Portnoy")
+                print("-Danny Carrey")
+                print("-Thomas Haake")
                 print("")
                 see_descripc = input("See descriptions?[y/n]")
                 
-                if see_descrip == y:
+                if see_descripc == y:
                     print("fdjhkaklsdf")
 
-                elif see_descrip == n:
+                elif see_descripc == n:
                     print("uhfiodasadf")
 
                 else:
